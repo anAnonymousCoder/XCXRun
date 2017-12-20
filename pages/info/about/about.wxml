@@ -1,0 +1,28 @@
+<!--pages/info/about/about.wxml-->
+<view class="teamname">团队名称：Team Neptune</view>
+<view class="teamname">邮箱：528945404@qq.com</view>
+<view class="staff">制作人员名单:</view>
+
+<view class="we">
+<image class="avatar" src="/resources/I.jpg"></image>
+<view class="nickname">Samsara</view>
+<view class="name">weid：wqy199873</view>
+</view>
+
+<view class="we">
+<image class="avatar" src="/resources/lilin.jpg"></image>
+<view class="nickname">5l45l</view>
+<view class="name">weid：ll1016315933</view>
+</view>
+
+<view class="we">
+<image class="avatar" src="/resources/chenjun.jpg"></image>
+<view class="nickname">没头脑°</view>
+<view class="name">weid：CJ1277295353</view>
+</view>
+
+<view class="we">
+<image class="avatar" src="/resources/LY1.png"></image>
+<view class="nickname">老腊肉</view>
+<view class="name">weid：liu18851770069</view>
+</view>

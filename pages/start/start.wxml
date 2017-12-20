@@ -1,0 +1,11 @@
+  <view class="title">跑步</view>
+
+     <view class="run">
+      <view class='cle'>
+          <view class='cle-name'>RUNNING</view>
+          <image class="runicon" src="/resources/跑步2.png"></image>
+      </view>
+      <view class='bottom-spen'>"开启你的跑步生活"</view>
+      <button class='cle-btn' bindtap='goRun' >开始跑步</button>
+      <button class='cle-btn' bindtap='openLocation'>查看当前位置</button>
+  </view>

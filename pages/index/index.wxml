@@ -1,0 +1,65 @@
+
+  <!--<view class="mainView" >
+  <image class="icon" src="/resources/timg1.jpg" mode="aspectFill" />
+          <view class="bigTitle">悦动跑步</view>
+  </view>-->
+  <view class="bigTitle">轻风跑步</view>
+  <view class="Swiper">
+<swiper class="swiper" indicator-dots="true"
+  autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item >
+      <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+
+<view class="Note">
+ <image class="warning" src="/resources/温馨提示.png"></image>
+ <view class="note">温馨提示：跑步之前，先看看最近的天气</view>
+ </view>
+ 
+<view class="Btn">
+ <view class="btn" bindtap="showWeather">
+    <text class="list-text">查看天气</text>
+    <image class="list-icon" src="/resources/多云1.png"></image>
+  </view>
+  </view>
+
+<view class="subtitle">
+<view class="news">文章推送</view>
+<image class="down" src="/resources/下.png"></image>
+</view>
+ 
+  <scroll-view scroll-y="true" style="height: 45vh;">
+    <view class="article" bindtap="Article1">
+    <view class="democontainer">
+    <image class="demo" src="/resources/跑步误区.jpg"></image>
+    </view>
+    <view class="Demo">
+    <view class="demotext">跑步的好处都有哪些？</view>
+<image class="demoicon" src="/resources/右1.png"></image>
+    </view>
+    </view>
+
+      <view class="article" bindtap="Article2">
+      <view class="democontainer">
+    <image class="demo" src="/resources/跑步好处.jpg"></image>
+    </view>
+    <view class="Demo">
+    <view class="demotext">跑步的16个常见误区　</view>
+<image class="demoicon" src="/resources/右1.png"></image>
+    </view>
+    </view>
+
+      <view class="article" bindtap="Article3">
+      <view class="democontainer">
+    <image class="demo" src="/resources/跑步准备.jpg"></image>
+    </view>
+    <view class="Demo">
+    <view class="demotext">跑步前需要准备哪些？</view>
+<image class="demoicon" src="/resources/右1.png"></image>
+    </view>
+    </view>
+</scroll-view>

@@ -1,0 +1,20 @@
+<view class="Title">
+<view class="note">我的跑步记录</view>
+</view>
+<view class= "Setting">
+<view class="setting">
+<view class="Record">
+<image class="front" src="/resources/时间彩色.png"></image>
+<view class= " record" style="width:100%;margin:30rpx">用时: {{Time}}</view>
+</view>
+<view class= "Record"> 
+<image class="front" src="/resources/距离.png"></image> 
+<view class= "record" style="width:100%;margin:30rpx">里程: {{meters}}km</view> 
+</view>
+</view>
+</view>
+
+<view class= "Tip">
+<image class="tipicon" src="/resources/提示1.png"></image>
+<view class="tip">点击右上角即可分享给好友</view>
+</view>

@@ -1,0 +1,55 @@
+page{
+  background-color: #fbf9fe;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150rpx;
+  color: #fff;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513594474192&di=702751293d7ac126be01582e9771c5ab&imgtype=0&src=http%3A%2F%2Fpic.90sjimg.com%2Fback_pic%2Fqk%2Fback_origin_pic%2F00%2F02%2F44%2Fddc14dd9bacacdf8e7acf20be03ff2b8.jpg) no-repeat;
+  background-size: 100% 100%
+}
+.cle{
+  display: flex;
+  width:372rpx;
+  height:372rpx;
+  border:4rpx solid #cecece;
+  border-radius: 50% 50% 50% 50%;
+  border-bottom: none;
+  margin: 50rpx auto;
+  margin-bottom: 0;
+  color: #584f60;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.cle-name{
+  color: #1296db;
+  font-size: 50rpx;
+  margin-top: 20rpx;
+}
+.bottom-spen{
+  text-align: center;
+  line-height: 120rpx;
+  color: #8a8a8a;
+  font-size: 36rpx;
+}
+.cle-btn{
+  color: #fff;
+  width: 500rpx;
+  margin: 50rpx auto;
+  border-radius: 50rpx;
+}
+.cle-btn{
+  background-color: #24c791;
+  color: #fff;
+  width: 500rpx;
+  margin: 50rpx auto;
+  border-radius: 50rpx;
+}
+.runicon{
+  width: 100rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,47 @@
+.index{
+    background-color: #FBF9FE;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 50rpx;
+}
+.header{
+    margin-top: 20;
+    line-height: 1;
+}
+.icon{
+    width: 100rpx;
+    height: 100rpx;
+    padding: 30;
+    margin-top: 20;
+    margin-bottom:20; 
+}
+.swiper {
+  height: 600rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.body{
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    overflow: hidden;
+}
+.bigTitle{
+    font-size: 56rpx;
+    padding-left:  30rpx;
+    padding-right: 30rpx;
+    position: center;
+}
+.title{
+    font-size: 52rpx;
+}
+.desc{
+    margin-top: 10rpx;
+    color: #888888;
+    font-size: 28rpx;
+    padding-left:  30rpx;
+    padding-right: 30rpx;
+}

@@ -1,0 +1,112 @@
+page{
+  background-color: #68647e;
+}
+.mapView{
+  align-items: center;
+}
+.mainView{
+  border-bottom: solid #ccc 4rpx;
+  border-top: solid #ccc 4rpx;
+  margin-top: 90rpx;
+}
+.page{
+  background-color: #ccc;
+  height: 100%;
+}
+.hover{
+  background-color: green;
+  width: 300rpx;
+  margin-left: 112rpx;
+}
+.hover1{
+  width: 145rpx;
+  margin-left: 113rpx;
+}
+.hover2{
+  width: 145rpx;
+  margin-left: 10rpx;
+}
+.stop{
+  display: flex;
+  flex-direction: row;
+}
+.clickbutton{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15rpx;
+  background-color: #FBF9FE;
+}
+.front{
+  width: 64rpx;
+  height: 64rpx;
+  margin-top: 14rpx;
+}
+.front1{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 28rpx;
+}
+.number{
+  display: flex;
+  flex-direction: row;
+  height: 72rpx;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60rpx;
+}
+.calculate{
+  font-size: 100rpx;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+.numbert{
+  display: flex;
+  flex-direction: row;
+  height: 72rpx;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.calculatet{
+  font-size: 60rpx;
+  display: flex;
+  justify-content: center;
+}
+.run-bottom{
+ text-align: center;
+ margin-top: 50rpx;
+}
+.run-btn{
+  height:160rpx;
+width:160rpx;
+border:2rpx solid #8a8a8a;
+border-radius:50%;
+color:#fff;
+line-height:160rpx;
+display:inline-block;
+margin:50rpx 25rpx;
+background: #469738;
+}
+.run-btn1{
+  height:160rpx;
+width:160rpx;
+border:2rpx solid #8a8a8a;
+border-radius:50%;
+color:#fff;
+line-height:160rpx;
+display:inline-block;
+margin:50rpx 25rpx;
+background: #dc4438;
+}
+.run-btn2{
+  height:160rpx;
+width:160rpx;
+border:2rpx solid #8a8a8a;
+border-radius:50%;
+color:#fff;
+line-height:160rpx;
+display:inline-block;
+margin:50rpx 25rpx;
+background:#cdcdcd;
+}

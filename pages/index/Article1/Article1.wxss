@@ -1,0 +1,7 @@
+/* pages/index/Article1/Article1.wxss */
+page{
+  background-color: #f9f4ed;
+}
+.article{
+  color: #515151;
+}

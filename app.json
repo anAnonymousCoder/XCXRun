@@ -1,0 +1,50 @@
+{
+  "pages":[
+     "pages/index/index" ,  
+     "pages/start/run/run",
+     "pages/info/info",
+"pages/logs/logs",
+"pages/index/weather/weather",
+"pages/info/storage/storage",
+"pages/start/start",
+"pages/info/signup/signup",
+"pages/info/about/about",
+"pages/index/Article1/Article1",
+"pages/index/Article2/Article2",
+"pages/index/Article3/Article3"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ea9518",
+    "navigationBarTitleText": "轻风",
+    "navigationBarTextStyle":"black",
+    "backgroundColor":"#cdcdcd"
+  },
+"tabBar": {
+    "color": "#707070",
+     "selectedColor": "#1296db",
+     "borderStyle": "black",
+    "list": [
+    {
+           "selectedIconPath": "resources/首页1.png",
+           "iconPath": "resources/首页.png",
+           "pagePath": "pages/index/index",
+           "text": "首页"  
+
+    },
+    {
+          "selectedIconPath": "resources/run1.png",
+          "iconPath": "resources/run.png",
+            "pagePath": "pages/start/start",
+            "text": "跑步"  
+
+    },
+    {
+            "selectedIconPath": "resources/me1.png",
+            "iconPath": "resources/me.png",
+            "pagePath": "pages/info/info",
+            "text": "个人中心"  
+    }
+  ]
+}
+}

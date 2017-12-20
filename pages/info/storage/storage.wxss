@@ -1,0 +1,56 @@
+page{
+  background-color: #fbf9fe;
+}
+.Title{
+  display: flex;
+  justify-content: center;
+  border-bottom: dashed #cdcdcd 2rpx;
+  margin-bottom: 20rpx;
+  height: 128rpx;
+}
+.note{
+  margin-top: 40rpx;
+  color: #8a8a8a;
+  font-size: 50rpx;
+}
+.record{
+  font-size: 40rpx;
+}
+.Record{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.front{
+  width: 64rpx;
+  height: 60rpx;
+  margin-top: 22rpx;
+  margin-left: 20rpx;
+}
+.Tip{
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 650rpx;
+}
+.tip{
+  font-size: 30rpx;
+  color: #cdcdcd;
+}
+.tipicon{
+  width: 30rpx;
+  height: 30rpx;
+}
+.setting{
+  border-radius: 20rpx;
+  width: 600rpx;
+  background-color: #fff;
+  display: flex;
+ flex-direction: column;
+ box-shadow: 0 0 5rpx 5rpx #cdcdcd;
+}
+.Setting{
+  display: flex;
+  justify-content: center;
+}

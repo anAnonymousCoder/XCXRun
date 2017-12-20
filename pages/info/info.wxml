@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+</view>
+ <view class="btn" bindtap="storage">
+ <text class="list-text">跑步记录</text>
+ <image class="list-icon" src="/resources/跳转.png"></image>
+  </view>
+   <view class="btn" bindtap="signup">
+ <text class="list-text">每日签到</text>
+ <image class="list-icon" src="/resources/跳转.png"></image>
+  </view>
+   <view class="btn" bindtap="about">
+ <text class="list-text">关于我们</text>
+ <image class="list-icon" src="/resources/跳转.png"></image>
+  </view>

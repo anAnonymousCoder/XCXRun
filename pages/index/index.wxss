@@ -1,0 +1,184 @@
+page{
+  background-color: #fff;
+}
+.mainView{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  border-bottom: dotted #FBF9FE 2rpx;
+}
+.index{
+    background-color: #FBF9FE;
+    font-family: -apple-system-font,Helvetica Neue,Helvetica,sans-serif;
+    flex: 1;
+    min-height: 100%;
+    font-size: 50rpx;
+}
+.header{
+    margin-top: 20;
+    line-height: 1;
+}
+.icon{
+    width: 100rpx;
+    height: 100rpx;
+   padding: 30;
+    margin-top: 20;
+    margin-bottom:20; 
+}
+.swiper {
+  height: 450rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.Swiper{
+ margin-top: 10rpx;
+  border-bottom: 2rpx solid #fff;
+}
+.body{
+    padding-left: 30rpx;
+    padding-right: 30rpx;
+    overflow: hidden;
+}
+.bigTitle{
+  height: 120rpx;
+    font-size: 60rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513577881396&di=9c47f175a844fed2f82198418b24528d&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F19%2F57%2F31%2F48m58PICAsa_1024.jpg) repeat-x;
+    background-size: 100% 100%
+}
+.motto{
+  border-bottom: solid #eae6eb 1rpx;
+}
+.title{
+    font-size: 52rpx;
+}
+.desc{
+    margin-top: 15rpx;
+    margin-bottom: 10rpx;
+    color: #888888;
+    font-size: 28rpx;
+    display: flex;
+   justify-content:center;
+}
+.note{
+  margin-bottom: 15rpx;
+  margin-top: 15rpx;
+  color: #888888;
+  display: flex;
+  font-size: 25rpx;
+  justify-content: center;
+  margin-left: 15rpx;
+}
+.Note{
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding-right: 24rpx;
+  padding-left: 35rpx;
+  margin-top: 20rpx;
+}
+.warning{
+width: 50rpx;
+height: 50rpx;
+margin-top: 10rpx;
+}
+.Btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 180rpx;
+  margin-bottom: 35rpx;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  height: 180rpx;
+  background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1513583368390&di=4f2064f5141694ef727a10634359c51f&imgtype=0&src=http%3A%2F%2Fpic.qiantucdn.com%2F58pic%2F19%2F68%2F60%2F74J58PICYZh_1024.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 90%;
+  border-radius: 20rpx;
+  box-shadow: 3rpx 3rpx 3rpx 3rpx #cdcdcd;
+}
+.list-text {
+  margin-left: 64rpx;
+  line-height: 180rpx;
+  font-size: 38rpx;
+    font-family: PingFang SC;
+  color: #000;
+  }
+.list-icon {
+  margin-top: 50rpx;
+  margin-left: 320rpx;
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.subtitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 2rpx solid #bfbfbf;
+  border-bottom: 4rpx solid #dbdbdb;
+  margin-top: 25rpx;
+  background-color: #f2f2ee;
+}
+.news{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60rpx;
+}
+.down{
+  height: 40rpx;
+  width: 48rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.article{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 15rpx solid #fff;
+  border-left: 15rpx solid #fff;
+  border-right: 15rpx solid #fff;
+  height: 420rpx;
+  background-color: #fbfbf6;
+}
+.demo{
+  height: 360rpx;
+  width: 540rpx;
+  border-radius: 10rpx;
+  box-shadow: 0 0 5rpx 5rpx #bfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rpx;
+}
+.democontainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 360rpx;
+}
+.Demo{
+  display: flex;
+  flex-direction: row;
+  height: 60rpx;
+}
+.demotext{
+  color: #2c2c2c;
+  font-size: 40rpx;
+  margin-left: 100rpx;
+}
+.demoicon{
+  margin-right: 80rpx;
+  height: 36rpx;
+  width: 36rpx;
+  margin-top: 12rpx;
+}

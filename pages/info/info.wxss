@@ -1,0 +1,46 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.userinfo-avatar {
+  width: 200rpx;
+  height: 200rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: solid #e98614 4rpx;
+}
+.userinfo-nickname {
+  color: black;
+  font-size: 50rpx;
+  font-weight: 7;
+}
+page{
+  background-color: #fbf9fe;
+}
+.container{
+  background: url('http://bpic.ooopic.com/16/25/51/16255141-f3c135f85cb216cc755a8c0aaeea8eaf-5.jpg') repeat-x;
+  background-size: 100% 100%;
+}
+.btn{
+  display: flex;
+  flex-direction: row;
+  height: 88rpx;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eae6eb;
+}
+.list-text {
+  margin-left: 30rpx;
+  line-height: 88rpx;
+  font-size: 34rpx;
+    font-family: PingFang SC;
+  color: #000;
+}
+.list-icon {
+  margin-top: 14rpx;
+  margin-left: 500rpx;
+  width: 60rpx;
+  height: 60rpx;
+}

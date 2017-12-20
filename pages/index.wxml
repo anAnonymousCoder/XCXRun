@@ -1,0 +1,29 @@
+<view clas="mainView">
+  <!--标题-->
+
+  <view class="header">
+    <image class="icon" src="/resources/timg.jpg" mode="aspectFill" />
+    <view class="bigTitle">悦动跑步</view>
+    <view class="desc">跑步带给你健康</view>
+  </view>
+
+
+<swiper class="swiper" indicator-dots="true"
+  autoplay="true" interval="5000" duration="1000">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item >
+      <image src="{{item}}" class="slide-image" mode="aspectFill"/>
+    </swiper-item>
+  </block>
+</swiper>
+
+  <view class="body">
+    <view class="widget">
+      <block wx:for="{{pageNames}}">
+        <view class="widgets__item">
+          <navigator url="{{item.id}}/{{item.id}}">{{item.name}}</navigator>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

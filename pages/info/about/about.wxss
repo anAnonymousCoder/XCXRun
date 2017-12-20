@@ -1,0 +1,36 @@
+/* pages/info/about/about.wxss */
+page{
+  background-color: #ededeb;
+}
+.avatar{
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+  border: solid #e98614 4rpx;
+}
+.we{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.nickname{
+  color: #8a8a8a;
+  font-size: 32rpx;
+}
+.name{
+  color: #8a8a8a;
+  font-size: 32rpx;
+}
+.teamname{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #707070;
+}
+.staff{
+  color: #8a8a8a;
+  margin-top: 30rpx;
+}
